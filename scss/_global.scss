@@ -1,0 +1,174 @@
+@import 'vars';
+@import 'fonts';
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+*,
+*::before, 
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body {
+  @include nova-regular;
+  font-size: 16px;
+  line-height: initial;
+  color: #000;
+  letter-spacing: .25px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+.container{
+  max-width: 1180px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container__fluid{
+  max-width: 1920px;
+  padding: 0 15px;
+  margin: 0 auto; 
+}
+
+.section-title{
+  @include playfair;
+  font-weight: 700;
+  color: #000;
+  font-size: 60px;
+  padding-bottom: 15px;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 47px;
+    height: 2px;
+    background-color: $brown;
+  }
+}
+
+.link-more{
+  margin-top: 35px;
+  a {
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 2px solid $brown;
+    padding: 15px 72px;
+    border: 2px solid #e3a062;
+    transition: all .3s;
+    &:hover {
+      box-shadow: 0px 0px 7px 0px rgb(227, 160, 98);
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  &-images {
+    width: 39px;
+    height: 38px;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  &-text {
+    padding-left: 5px;
+    line-height: initial;
+    display: flex;
+    flex-direction: column;
+    @include playfair;
+    font-weight: 700;
+    font-size: 21px;
+    letter-spacing: .25px;
+    text-transform: uppercase;
+    color: #fff;
+    span {
+      @include nova-regular;
+      font-size: 9px;
+    }
+  }
+}
+
+.menu {
+  ul {
+    display: flex;
+    justify-content: center;
+    li+li {
+     margin-left: 40px;
+    }
+    li{
+      &:hover{
+         animation: pulse;
+         animation-duration: .5s;
+      }
+      a {
+        text-transform: uppercase;
+        letter-spacing: .25px;
+        color: #fff;
+        transition: all .5s;
+        &:hover{
+          color: $brown;
+        }
+      }
+    }
+    
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track{
+  border: none;
+  box-shadow: 0 0 1px .5px rgba(0,0,0,0.5);
+  background-color: rgba(180,180,180,0.7);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $brown;
+}
+
+

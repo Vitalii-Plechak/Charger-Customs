@@ -74,3 +74,5 @@ $(function (){
   })
 
 });
+
+new WOW().init();

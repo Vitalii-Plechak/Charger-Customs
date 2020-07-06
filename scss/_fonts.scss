@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'Proxima-Nova_Light';
+  src: url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Light.woff') format('woff'),
+    url('../fonts/ProximaNova-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@mixin nova-light {
+  font-family: 'Proxima-Nova_Light', sans-serif;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova_Light';
+  src: url('../fonts/ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-LightIt.woff') format('woff'),
+    url('../fonts/ProximaNova-LightIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@mixin nova-light_italic {
+  font-family: 'Proxima-Nova_Light', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova_Regular';
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@mixin nova-regular {
+  font-family: 'Proxima-Nova_Regular', sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova_Regular';
+  src: url('../fonts/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-RegularIt.woff') format('woff'),
+    url('../fonts/ProximaNova-RegularIt.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@mixin nova-regular-italic {
+  font-family: 'Proxima-Nova_Regular', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova_Bold';
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Bold.woff') format('woff'),
+    url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@mixin nova-bold {
+  font-family: 'Proxima-Nova_Bold', sans-serif;
+  font-weight: 700;
+}
+
+@mixin playfair{
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: normal;
+}
+
+// @font-face {
+//   font-family: 'icomoon';
+//   src: url('../fonts/icomoon.eot?kvijak');
+//   src: url('../fonts/icomoon.eot?kvijak#iefix') format('embedded-opentype'),
+//     url('../fonts/icomoon.ttf?kvijak') format('truetype'),
+//     url('../fonts/icomoon.woff?kvijak') format('woff'),
+//     url('../fonts/icomoon.svg?kvijak#icomoon') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: block;
+// }
+
+// [class^="icon-"],
+// [class*=" icon-"] {
+//   /* use !important to prevent issues with browser extensions that change fonts */
+//   font-family: 'icomoon' !important;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+
+//   /* Better Font Rendering =========== */
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// .icon-chevron-right:before {
+//   content: "\e901";
+// }
+
+// .icon-chevron-left:before {
+//   content: "\e900";
+// }
+
+// .icon-copyright:before {
+//   content: "\e906";
+// }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?jb40g3');
+  src: url('../fonts/icomoon.eot?jb40g3#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jb40g3') format('truetype'),
+    url('../fonts/icomoon.woff?jb40g3') format('woff'),
+    url('../fonts/icomoon.svg?jb40g3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-right1:before {
+  content: "\e903";
+}
+
+.icon-chevron-left1:before {
+  content: "\e904";
+}
+
+.icon-copyright:before {
+  content: "\e902";
+}
+
+.icon-paper-plane-o:before {
+  content: "\e90c";
+}
+
+.icon-send-o:before {
+  content: "\e90c";
+}
+
+.icon-linkedin:before {
+  content: "\e900";
+}
+
+.icon-instagram:before {
+  content: "\e901";
+}
+
+.icon-chevron-left:before {
+  content: "\e909";
+}
+
+.icon-chevron-right:before {
+  content: "\e90a";
+}
+
